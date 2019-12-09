@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Küsimustik</h1>
+    <p>Djangoga koostatud küsimustik</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+        Vaata küsimusi</a
+      >
+  </div>
+  </div>
+{% endblock %}
